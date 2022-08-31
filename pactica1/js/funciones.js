@@ -94,9 +94,11 @@ class ejercicios{
         }
         else if (inicio>fin){
             resp.textContent=`los números entre ${inicio} y ${fin} son:\n`
-            while (inicio>fin){
+            
+            while (inicio>=fin){
+                resp.textContent+=inicio+" \n"
                 inicio--
-               resp.textContent+=inicio+" \n"
+              
 
             }
         }
@@ -114,11 +116,11 @@ class ejercicios{
         let cont=0 
         let remplazo = inicio
         if (fin>inicio){
-        while (inicio<fin){
-        suma=suma+inicio
-        cont++
-        inicio++
-        }
+            while (inicio<fin){
+                suma=suma+inicio
+                cont++
+                inicio++
+            }
         }
         else if (fin<inicio){
             while (inicio>fin){
@@ -143,6 +145,7 @@ class ejercicios{
                 }
             }
         }
+
         else if (limite<0){
             for (let i=0;i>=limite;i--){
                 if (i%2==0){
