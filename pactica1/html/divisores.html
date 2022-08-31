@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divisores</title>
+    <link rel="stylesheet" href="../css/ventas.css">
+    <script defer src="../js/funciones.js"></script>
+    <link rel="shortcut icon" href="../ico/divisor.ico" type="image/x-icon">
+</head>
+<body>
+    <form action="../index.html">
+    <h1>divisores de un número</h1>
+    <h3>se mostrarán los divisores del número ingresado</h3>
+    
+        <div >
+            <input class="entrada" type="text" id="numero" placeholder="ingrese el número a evaluar">
+
+        </div>
+        <div>
+            <button class="entrada" type="button" onclick="ejer.divisores()">
+                calcular divisores
+            </button>
+            <button class="entrada" type="submit">
+                regresar
+            </button>
+            <button class="entrada" type="reset">
+                cancelar
+            </button>
+        </div>  
+        <div>
+            <textarea class="entrada" id="resp" cols="30" rows="10" placeholder="respuesta:"></textarea>
+        </div>
+
+    </form>
+    
+</body>
+</html>
