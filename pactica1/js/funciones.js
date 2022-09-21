@@ -214,11 +214,5 @@ class ejercicios{
 
 
 
-
-
-
-
-
-
 }
 let ejer = new ejercicios()
